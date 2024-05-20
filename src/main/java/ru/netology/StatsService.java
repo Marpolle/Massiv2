@@ -20,7 +20,6 @@ public class StatsService {
         }
         return summa = summa / sales.length;
     }
-
     //номер месяца, в котором был пик продаж
     public int maxSales(long[] sales) {
         int MaxMonth = 0;
